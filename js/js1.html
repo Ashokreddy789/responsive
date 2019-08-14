@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+</head>
+
+<body>
+    <h2>Display date and time</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Display date and time</button>
+    <p id="demo"></p>
+    <h2>js can change html content</h2>
+    <p id="content">This is ashok reddy</p>
+    <button type="button" onclick="document.getElementById('content').innerHTML= 'I am studying btech'">click me</button>
+    <h2>js can change css</h2>
+    <p id="css change">This is js tutorial</p>
+    <button type="button" onclick="document.getElementById('css change').style.fontSize='40px'">click me</button>
+    <h2>js hide html elements</h2>
+    <p id="hide">this is a practice</p>
+    <button type="button" ondblclick="document.getElementById('hide').style.display='none'">click me</button>
+    <h2>js can also show hidden elements</h2>
+    <p>this is first paragraph</p>
+    <p id="hidden" style="display:none">this is second paragraph</p>
+    <button type="button" onclick="document.getElementById('hidden').style.display='block'">click me</button>
+    <h2>js in body element</h2>
+    <p id="body"></p>
+    <h2>js in head</h2>
+    <p id="head">this is a paragraph</p>
+    <button type="button" onclick="abc()">try it</button>
+    <h2>external js</h2>
+    <p id="file">this is internal js</p>
+    <button type="button" onclick="xyz()">try it</button>
+    <h2>content in innerhtml</h2>
+    <p>sum of two numbers</p>
+    <p id="sum"></p>
+    <h2>document.write</h2>
+    <button type="button" onclick="document.write(10+11)">try it</button>
+    <h2>alert box</h2>
+    <button type="button" onclick="window.alert(10+10)">try it</button>
+    <h2>js statements</h2>
+    <p id="statement"></p>
+    <h2>js statement content</h2>
+    <p id="hello"></p>
+    <h2>multiple statements on one line</h2>
+    <p id="line"></p>
+    <script src="external.js"></script>
+    <script>
+        var j, k, l;
+        j = 10;
+        k = 20;
+        l = j + k;
+        p = 50; q = 20; r = p + q;
+        document.getElementById("statement").innerHTML = l;
+        document.getElementById("hello").innerHTML = "hello world.";
+        document.getElementById("line").innerHTML = r;
+        document.getElementById("body").innerHTML = "hi!hello how are you";
+        document.getElementById("sum").innerHTML = 3 + 7;
+        document.write(2 + 3);
+        console.log(10 + 12);
+        function abc() {
+            document.getElementById('head').innerHTML = "this is js in head";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+}
+.header {
+    background-color: white
+}
+.info {
+    height: 550px;
+    background-color: #f9f9f9;
+}
+.service {
+    height: 650px;
+}
+.logo {
+    height: 25px;
+    padding: 10px 80px;
+}
+.logo-div {
+    width: 45%;
+    
+    float: left;
+    box-sizing: border-box;
+}
+.home{
+    float: right;
+    box-sizing: border-box;
+    padding: 7px;
+}
+span {
+    padding: 10px;
+}
+.back_g-img {
+    background-image: url("http://preview.uideck.com/items/fusion/assets/img/hero-area.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
+}
+.head-text {
+    margin: 0px;
+}
+.lorem {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.download {
+    padding: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    border: 0px;
+}
+.learn {
+    padding: 15px;
+    margin-left: 10px;
+    color: red;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid red;
+}
+.service-head {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.child1 {
+    margin-left: 13px;
+    width: 32%;
+    float: left;
+    margin-bottom: 15px;
+    transition: all 2s;
+    box-shadow: 1px 1px 1px 1px #e8dddd;
+}
+.back_g-img2 {
+    background-image: url("../images/img-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.read {
+    padding: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 20px;
+}
+.back_g-img3 {
+    background-image: url("../images/intro-mobile\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.awsome {
+    width: 27%;
+    height: 85%;
+    margin-left: 80px;
+    float: left;
+    margin-bottom: 15px;
+}
+.child3 {
+    margin-left: 35px
+}
+.bootstrap4 {
+    text-align: center;
+    height: 29%;
+    margin: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bootstrap4-head {
+    margin: 0px;
+}
+.meet {
+    padding: 25px 0px;
+    margin-top: 50px;
+}
+.m_child1 {
+    width: 49%;
+    margin-bottom: 15px;
+    float: left;
+} 
+.m_child2 {
+    margin-left: 20px;
+} 
+.meet-img{
+    width: 40%;
+    float: left;
+}  
+.david {
+    padding: 20px;
+    float: left;
+}
+.price {
+    padding-top: 5%;
+}
+.p_child1 {
+    margin-left: 17px;
+    background-color: pink;
+    width: 30%;
+    float: left;
+}
+.main {
+    background-color: coral; 
+}
+.s_logo {
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    background-color: white;
+    border: 0.5px solid darkgray;
+}
+.text {
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.child4 {
+    margin-left: 80px;
+    width: 50%;
+    float: left;
+}
+.child5{
+    float: left;
+    margin-top: 80px;
+    width: 40%;
+}
+.c_5-img {
+    width: 100%;
+}
+.logos-div {
+    text-align: center;
+    padding: 10px;
+}
+.details {
+    margin-left: 80px;
+    padding-top: 80px;
+}
+.meet_child {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.bottom {
+    padding: 0px;
+}
+.dolar {
+    padding: 20px;
+}
+.d_head {
+    margin: 0px;
+}
+.b_buy {
+    margin-bottom: 30px;
+}
+.bootstrap4:hover, .child1:hover, .m_child1:hover, .p_child1:hover {
+    box-shadow: 0px 10px 40px 1px black;
+  }
+.f_head {
+    padding-top: 80px;
+}
+.home1 {
+    text-decoration: none;
+}  
+.fix-header {
+    position: fixed;
+    top:0px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);   
+}
+.b_hover {
+    transition: all 2s;
+    box-shadow: 1px 1px 1px 1px #e8dddd;
+}
+@media only screen and (max-width: 800px) {
+.m_child1 {
+      width: 100%;
+    }
+  }
+.home3 {
+    float: left;
+    padding: 10px;
+}  
+.button1:hover {
+    background-color: white;
+    color: red;
+    border: 0.5px solid red;
+}
+.button2:hover {
+    background-color: red;
+    color: white;
+    border: 0.5px solid red;
+}
+.logo2:hover {
+    background-color: red;
+}
+.s_logo:hover {
+    background-color: red;
+}
